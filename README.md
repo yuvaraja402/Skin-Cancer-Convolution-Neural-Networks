@@ -9,6 +9,11 @@ Source : https://isic-archive.com/#images
 Size of dataset was 49.9GB, out of which our systems could handle only approx 1500 images since Epoch times for training the images took
  tremendous time.
 
+### Code
+Link : https://github.com/yuvaraja402/Skin-Cancer-Convolution-Neural-Networks/blob/master/Skin_cancer_CNN_3.ipynb
+
+Jupyter Notebook was used for code developement in Python. 
+
 ### Goal
 The goal was to train the Convolution Neural Networks so it could detect type of cancer in skin from any given new image.
 

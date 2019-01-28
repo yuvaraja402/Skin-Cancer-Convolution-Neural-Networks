@@ -1,8 +1,6 @@
 # Skin Cancer Abnormality Classification 
 # Model - Convolution Neural Networks
 
-Project - 4 people project
-
 ### Dataset 
 Source : https://isic-archive.com/#images
 

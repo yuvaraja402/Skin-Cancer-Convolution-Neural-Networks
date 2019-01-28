@@ -10,7 +10,10 @@ Size of dataset was 49.9GB, out of which our systems could handle only approx 15
 ### Code
 Link : https://github.com/yuvaraja402/Skin-Cancer-Convolution-Neural-Networks/blob/master/Skin_cancer_CNN_3.ipynb
 
-Jupyter Notebook was used for code developement in Python. 
+Jupyter Notebook was used for code developement in Python.
+
+Outputs are stored under 'Outputs Snapshots' folder.
+Post the training, 10 images were taken to check with the trained model. Those are stored in the folder 'Single prediction images'.
 
 ### Goal
 The goal was to train the Convolution Neural Networks so it could detect type of cancer in skin from any given new image.

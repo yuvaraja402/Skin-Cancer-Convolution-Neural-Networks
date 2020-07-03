@@ -5,19 +5,15 @@
 
 <b>Objective</b> :dart: - To Train a Convolution Neural Networks model with high accuracy to predict and classify the type of skin cancer from any given :file_folder: image. As future scope, this model can be trained with more image samples to reach metrics :chart_with_upwards_trend: of 95 % and carry this project into realm of cloud computing integrating its functionality into a mobile app for faster skin cancer detection.
 
-### Dataset 
-Source : https://www.isic-archive.com/#!/onlyHeaderTop/gallery
+### Quick links :link::
+[Skin cancer code](https://github.com/yuvaraja402/Skin-Cancer-Convolution-Neural-Networks/blob/master/Skin_cancer_CNN_notebook.ipynb) - Jupyter Notebook was used for code developement in Python.
 
+[Source of Dataset](https://www.isic-archive.com/#!/onlyHeaderTop/gallery)
 Size of dataset :file_folder: was 49.9 Gigabytes, our systems could handle only 1500 images at a time during training.
 So this project was stored, processed and run on an Amazon EC2-P2 instance. 
 
-### Quick info :link::
-[Skin cancer code](https://github.com/yuvaraja402/Skin-Cancer-Convolution-Neural-Networks/blob/master/Skin_cancer_CNN_notebook.ipynb)
-
-Jupyter Notebook was used for code developement in Python.
-
-Output snapshots are stored under 'Outputs Snapshots' folder.
-Post the training, 10 images :file_folder: were selected to validate classifying accuracy with the trained model. They are stored in the folder 'Single prediction images'.
+Output snapshots stored in this [Output folder](https://github.com/yuvaraja402/Skin-Cancer-Convolution-Neural-Networks/tree/master/Output%20Snapshots)
+Post the training, 10 images :file_folder: were selected to validate classifying accuracy with the trained model. They are stored in the [Single prediction images](https://github.com/yuvaraja402/Skin-Cancer-Convolution-Neural-Networks/tree/master/Single%20prediction%20images) folder.
 
 ### Workflow
 Setup:
@@ -55,4 +51,3 @@ Instance details :computer: :
 Prediction accuracy :bar_chart: of the model is 81.47 %.
 
 In real world test of 8/10 images were accurately predicted :white_check_mark:.
-

@@ -21,12 +21,12 @@ Post the training, 10 images :file_folder: were selected to validate classifying
 ### Workflow
 Setup:
 
-As local computer will be inefficient during model's training time from images, this project was run on Amazon EC2-P2 instance for faster training and results.
+As local computer :computer: will be inefficient during model's training time from images, this project was run on Amazon EC2-P2 instance for faster training and results.
 P2 instance was powered by Nvidia Tesla K80 GPU to power up the project. 
 
 Technologies used:
 
-Python code as base for processing and training from images.
+Python :snake: code as base for processing and training from images.
 P2 instance was connected with Jupyter notebook for easier interaction.
 Keras package in python with Tensorflow as Backend for creating Convolution, Pooling and Dense layers to train the images and get started with prediction.
 

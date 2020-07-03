@@ -32,7 +32,7 @@ Keras package in python with Tensorflow as Backend for creating Convolution, Poo
 
 Project flow:
 
-Established the connnection of Jupyter notebook on P2 instance for easy interaction with the cloud service during development. Developed python script using Keras package to process images that were stored in the cloud using WinSCP tool. During training and testing the project ran as a single script to avoid delays. This same project when run on a laptop with Nvidia GTX 1050Ti took ~1 hour 20 minutes to completely train the image dataset whereas in P2 instance with Nvidia K80 GPu it took only 20 minutes. The purpose of using Cloud service was to minimize training time and increase output quality.
+Established the connnection of Jupyter notebook on P2 instance for easy interaction with the cloud service during development. Developed python script using Keras package to process images that were stored in the cloud using WinSCP tool. During training and testing the project ran as a single script to avoid delays. This same project when run on a laptop :computer: with Nvidia GTX 1050Ti took ~1 hour 20 minutes to completely train the image dataset whereas in P2 instance :computer: with Nvidia K80 GPU it took only 20 minutes. The purpose of using Cloud service was to minimize training time and increase output quality.
 
 Neural Network details:
 

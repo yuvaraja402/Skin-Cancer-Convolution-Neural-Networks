@@ -1,8 +1,9 @@
 # Skin Cancer Abnormality Classification 
 ## Machine learning Model used - Convolution Neural Networks
 
-### Goal
-Train a Convolution Neural Networks model to predict and classify the type of skin cancer from any given :file_folder: image.
+<b>Motivation</b> :thought_balloon: - Millions of people get diagnosed with melanoma skin cancer every year and there needs to be a fast way to detect skin cancer to avoid mortality rates. 
+
+<b>Objective</b> :dart: - To Train a Convolution Neural Networks model with high accuracy to predict and classify the type of skin cancer from any given :file_folder: image. As future scope, this model can be trained with more image samples to reach metrics :chart_with_upwards_trend: of 95 % and carry this project into realm of cloud computing integrating its functionality into a mobile app for faster skin cancer detection.
 
 ### Dataset 
 Source : https://www.isic-archive.com/#!/onlyHeaderTop/gallery
@@ -10,8 +11,8 @@ Source : https://www.isic-archive.com/#!/onlyHeaderTop/gallery
 Size of dataset :file_folder: was 49.9 Gigabytes, our systems could handle only 1500 images at a time during training.
 So this project was stored, processed and run on an Amazon EC2-P2 instance. 
 
-### Quick info
-Quick Link for Code: https://github.com/yuvaraja402/Skin-Cancer-Convolution-Neural-Networks/blob/master/Skin_cancer_CNN_notebook.ipynb
+### Quick info :link::
+[Skin cancer code](https://github.com/yuvaraja402/Skin-Cancer-Convolution-Neural-Networks/blob/master/Skin_cancer_CNN_notebook.ipynb)
 
 Jupyter Notebook was used for code developement in Python.
 
@@ -55,4 +56,3 @@ Prediction accuracy :bar_chart: of the model is 81.47 %.
 
 In real world test of 8/10 images were accurately predicted :white_check_mark:.
 
-As future scope, this model can be trained with more samples to reach metrics :chart_with_upwards_trend: of 95 %.

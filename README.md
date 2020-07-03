@@ -2,7 +2,7 @@
 ## Machine learning Model used - Convolution Neural Networks
 
 ### Goal
-The goal was to train the Convolution Neural Networks so it will predict and classify the type of skin cancer from any given image.
+Train a Convolution Neural Networks model to predict and classify the type of skin cancer from any given image.
 
 ### Dataset 
 Source : https://www.isic-archive.com/#!/onlyHeaderTop/gallery
@@ -11,7 +11,7 @@ Size of dataset was 49.9 Gigabytes, our systems could handle only 1500 images at
 So this project was stored, processed and run on an Amazon EC2-P2 instance. 
 
 ### Quick info
-Quick Link : https://github.com/yuvaraja402/Skin-Cancer-Convolution-Neural-Networks/blob/master/Skin_cancer_CNN_notebook.ipynb
+Quick Link for Code: https://github.com/yuvaraja402/Skin-Cancer-Convolution-Neural-Networks/blob/master/Skin_cancer_CNN_notebook.ipynb
 
 Jupyter Notebook was used for code developement in Python.
 

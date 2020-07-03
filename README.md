@@ -38,23 +38,16 @@ Neural Network details:
 
 * Convolution layers - 2
 * Feature maps - 32 in first batch and 64 in later batch 
-
 * Pooling layers - 2
-
 * Hidden layers - 2 (each has 128 neurons)
 
 
 Instance details:
-
-GPU - Nvidia Tesla K80
-
-vCPU's - 4
-
-Ram - 61 (GiB)
-
-Network bandwidth - High
-
-Price/hour - $0.900
+* GPU - Nvidia Tesla K80
+* vCPU's - 4
+* Ram - 61 (GiB)
+* Network bandwidth - High
+* Price/hour - $0.900
 
 ### Result
 Prediction accuracy of the model is 81.47 %.

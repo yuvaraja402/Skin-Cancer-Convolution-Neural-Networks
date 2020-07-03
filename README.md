@@ -52,5 +52,7 @@ Instance details :computer: :
 
 ### Result :tada:
 Prediction accuracy :bar_chart: of the model is 81.47 %.
-In real world test of 8/10 images were accurately predicted.
+
+In real world test of 8/10 images were accurately predicted :white_check_mark:.
+
 As future scope, this model can be trained with more samples to reach metrics :chart_with_upwards_trend: of 95 %.

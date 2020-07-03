@@ -46,6 +46,8 @@ Established the connnection of Jupyter notebook on P2 instance for easy interact
 * Price/hour - $0.900
 
 ### Result :tada:
-Skin cancer prediction accuracy :bar_chart: of the model - 81.47 %.
+Skin cancer <b>prediction accuracy</b> :bar_chart: of the <b>model - 81.47 %</b>.
 
-In real world test of 8/10 images were accurately predicted :white_check_mark:.
+In real world test of <b>8/10</b> images were <b>accurately predicted</b> :white_check_mark:.
+
+<img src='https://github.com/yuvaraja402/Skin-Cancer-Convolution-Neural-Networks/blob/master/Output%20Snapshots/file_outputs_1.PNG'>

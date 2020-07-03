@@ -7,7 +7,7 @@ Train a Convolution Neural Networks model to predict and classify the type of sk
 ### Dataset 
 Source : https://www.isic-archive.com/#!/onlyHeaderTop/gallery
 
-Size of dataset was 49.9 Gigabytes, our systems could handle only 1500 :file_folder: images at a time during training.
+Size of dataset :file_folder: was 49.9 Gigabytes, our systems could handle only 1500 images at a time during training.
 So this project was stored, processed and run on an Amazon EC2-P2 instance. 
 
 ### Quick info
@@ -42,14 +42,15 @@ Neural Network details:
 * Hidden layers - 2 (each has 128 neurons)
 
 
-Instance details:
+Instance details :computer: :
+
 * GPU - Nvidia Tesla K80
 * vCPU's - 4
 * Ram - 61 (GiB)
 * Network bandwidth - High
 * Price/hour - $0.900
 
-### Result
-Prediction accuracy of the model is 81.47 %.
+### Result :tada:
+Prediction accuracy :bar_chart: of the model is 81.47 %.
 In real world test of 8/10 images were accurately predicted.
-As future scope, this model can be trained with more samples to reach metrics of 95 %.
+As future scope, this model can be trained with more samples to reach metrics :chart_with_upwards_trend: of 95 %.

@@ -37,7 +37,6 @@ Established the connnection of Jupyter notebook on P2 instance for easy interact
 Neural Network details:
 
 * Convolution layers - 2
-
 * Feature maps - 32 in first batch and 64 in later batch 
 
 * Pooling layers - 2

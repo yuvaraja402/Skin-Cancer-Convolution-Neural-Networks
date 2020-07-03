@@ -1,31 +1,49 @@
 # Skin Cancer Abnormality Classification 
-# Model - Convolution Neural Networks
+## Machine learning Model used - Convolution Neural Networks
+
+### Goal
+The goal was to train the Convolution Neural Networks so it will predict and classify the type of skin cancer from any given image.
 
 ### Dataset 
-Source : https://isic-archive.com/#images
+Source : https://www.isic-archive.com/#!/onlyHeaderTop/gallery
 
-Size of dataset was 49.9GB, out of which our systems could handle only approx 1500 images since Epoch times for training the images took
- tremendous time.
+Size of dataset was 49.9 Gigabytes, our systems could handle only 1500 images at a time during training.
+So this project was stored, processed and run on an Amazon EC2-P2 instance. 
 
-### Code
-Link : https://github.com/yuvaraja402/Skin-Cancer-Convolution-Neural-Networks/blob/master/Skin_cancer_CNN_3.ipynb
+### Quick info
+Quick Link : https://github.com/yuvaraja402/Skin-Cancer-Convolution-Neural-Networks/blob/master/Skin_cancer_CNN_notebook.ipynb
 
 Jupyter Notebook was used for code developement in Python.
 
-Outputs are stored under 'Outputs Snapshots' folder.
-Post the training, 10 images were taken to check with the trained model. Those are stored in the folder 'Single prediction images'.
+Output snapshots are stored under 'Outputs Snapshots' folder.
+Post the training, 10 images were selected to validate classifying accuracy with the trained model. They are stored in the folder 'Single prediction images'.
 
-### Goal
-The goal was to train the Convolution Neural Networks so it could detect type of cancer in skin from any given new image.
+### Workflow
+Setup:
+As local computer will be inefficient during model's training time from images, this project was run on Amazon EC2-P2 instance for faster training and results.
+P2 instance was powered by Nvidia Tesla K80 GPU to power up the project. 
+Technologies used:
+Python code as base for processing and training from images.
+P2 instance was connected with Jupyter notebook for easier interaction.
+Keras package in python with Tensorflow as Backend for creating Convolution, Pooling and Dense layers to train the images and get started with prediction.
 
-### Method
-Used Keras package with Tensorflow as Backend for creating Convolution, Pooling and Dense layers to train the images and get started with prediction.
+Project flow:
+Established the connnection of Jupyter notebook on P2 instance for easy interaction with the cloud service during development. Developed python script using Keras package to process images that were stored in the cloud using WinSCP tool. During training and testing the project ran as a single script to avoid delays. This same project when run on a laptop with Nvidia GTX 1050Ti took ~1 hour 20 minutes to completely train the image dataset whereas in P2 instance with Nvidia K80 GPu it took only 20 minutes. The purpose of using Cloud service was to minimize training time and increase output quality.
 
-Convolution layers - 2,Feature maps - 32 in first batch adn 64 in next batch, Pooling layers -2 and Hidden layers - 2 (each has 128 neurons)
+Neural Network details:
+Convolution layers - 2
+Feature maps - 32 in first batch and 64 in later batch 
+Pooling layers - 2
+Hidden layers - 2 (each has 128 neurons)
 
-GPU - Nvidia GTX 1050 Ti was utitlized for computing the convolution and neural network layers. 
+Instance details:
+GPU - Nvidia Tesla K80
+vCPU's - 4
+Ram - 61 (GiB)
+Network bandwidth - High
+Price/hour - $0.900
+
 ### Result
-After prediction, validation accuracy was 81.47 %.
-We single predicted with 10 images, out of which 8 turned out to be accurate so giving us 80% accuracy.
-
-In future, the same model can be trained with larger image dataset in a machine thats capable of handling the workload.
+Prediction accuracy of the model is 81.47 %.
+In real world test of 8/10 images were accurately predicted.
+As future scope, this model can be trained with more samples to reach metrics of 95 %.
